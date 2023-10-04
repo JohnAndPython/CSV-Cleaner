@@ -9,7 +9,7 @@ Goals:
 - special chars
 - additional columns / rows
 - doubble rows in the head part
-2. GUI APP to show differences between the received and the cleared file
+2. GUI APP to show differences between the received and the cleaned file
 - table
 
 The CSV-File has a specific structure. It contains an upper part and a lower part, that are different from each other.
