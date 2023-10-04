@@ -23,11 +23,11 @@ row 40 is empty
 Lowwer part:
 Starts at row 41 (Head) and has ten columns
 The amount of rows is variable (can be 1 or 500 for example).
-First and second column contain special keyvalueas that can occur multiple times in the same column and are considered container. The Keyvalues in the first and second column need to be the same.
-The third column contains the supplier code, that can occur only once per container.
-The fourth column contains the description of what the code in column three means.
-The fifth column Contains a price. The price has to be filled. If there is no value, it is considered for free = 0.
-The sixth column has to be filled and contains a special code (LF1, LF2, ... ,LF10)
-The seventh column can be filled (no must have). Natural number.
-The eights column can be filled (no must have) with a code from the supplier.
-The nineth column can be filled (no must have) with an capital "F".
+- First and second column contain special keyvalueas that can occur multiple times in the same column and are considered container. The Keyvalues in the first and second column need to be the same.
+- The third column contains the supplier code, that can occur only once per container.
+- The fourth column contains the description of what the code in column three means.
+- The fifth column Contains a price. The price has to be filled. If there is no value, it is considered for free = 0.
+- The sixth column has to be filled and contains a special code (LF1, LF2, ... ,LF10)
+- The seventh column can be filled (no must have). Natural number.
+- The eights column can be filled (no must have) with a code from the supplier.
+- The nineth column can be filled (no must have) with an capital "F".
