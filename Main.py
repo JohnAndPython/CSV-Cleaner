@@ -16,7 +16,7 @@ except FileExistsError:
     None
 
 try:
-    os.mkdir(path_of_main + "\\Erorrprotokoll")
+    os.mkdir(path_of_main + "\\Erorrprotocol")
 except FileExistsError:
     None
 
@@ -32,7 +32,7 @@ except FileExistsError:
 
 #Get path of directorys
 template_path = path_of_main + "\\Template"
-errorProtocol_path = path_of_main + "\\Erorrprotokoll"
+errorProtocol_path = path_of_main + "\\Erorrprotocol"
 offer_path = path_of_main + "\\Offers"
 cleared_path = path_of_main + "\\Cleaned"
 
@@ -46,7 +46,7 @@ if os.path.isfile(template_path + "\\RealCSV.csv") == False:
 if os.path.isfile(template_path + "\\KeyValue_Column_1.csv") == False:
     create_files.create_file_KEYCSV(template_path + "\\KeyValue_Column_1.csv")
 
-#check all csv-files in the Directory Offers
+#save all csv-files in the Directory Offers in a list
 allCSVFiles_list = [CSVfile for CSVfile in os.listdir(offer_path) if CSVfile.lower().endswith(".csv")]
 
 #Open special code Template and store the content in a list
