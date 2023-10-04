@@ -46,7 +46,7 @@ if os.path.isfile(template_path + "\\RealCSV.csv") == False:
 if os.path.isfile(template_path + "\\KeyValue_Column_1.csv") == False:
     create_files.create_file_KEYCSV(template_path + "\\KeyValue_Column_1.csv")
 
-#save all csv-files in the Directory Offers in a list
+#store all csv-files in the Directory Offers in a list
 allCSVFiles_list = [CSVfile for CSVfile in os.listdir(offer_path) if CSVfile.lower().endswith(".csv")]
 
 #Open special code Template and store the content in a list
