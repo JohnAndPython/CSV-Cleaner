@@ -1,4 +1,4 @@
-# CSV-Cleaner
+# CSV_Offer_Cleaner
 
 A CSV-Template (see example file) will be filled with values by a supplier. It happens, that the format of the CSV-file will be changed. It also happens that the values inserted by the supplier are incorrect (format errors).
 The filled CSV-file will be uploaded in an ERP-System. It cannot be uploaded, if there are format errors or not allowed values.
