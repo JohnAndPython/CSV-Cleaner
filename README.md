@@ -20,7 +20,7 @@ Upper part untill row 39:
 - The fourth column contains a designation for column three
 row 40 is empty
 
-Lowwer part:
+Lower part:
 Starts at row 41 (Head) and has ten columns
 The amount of rows is variable (can be 1 or 500 for example).
 - First and second column contain special keyvalueas that can occur multiple times in the same column and are considered container. The Keyvalues in the first and second column need to be the same.
